@@ -1,5 +1,5 @@
 # because ubuntu-jammy uses python3 for latest python3.10 and pip3
-FROM ubuntu:jammy-20230816
+FROM ubuntu:jammy-20230916
 
 # https://stackoverflow.com/a/76850816/80353 recommends to create
 # "system" user without a home directory (-r)
