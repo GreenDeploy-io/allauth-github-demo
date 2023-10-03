@@ -4,8 +4,7 @@
 #
 #    pip-compile base-production.in
 #
-gunicorn==20.1.0
-    # via -r base-production.in
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
+gunicorn==21.2.0
+    # via -r requirements/base-production.in
+packaging==23.2
+    # via gunicorn

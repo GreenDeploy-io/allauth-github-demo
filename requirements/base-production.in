@@ -9,4 +9,4 @@
 
 -c base-base.txt
 
-gunicorn==20.1.*  # 2021 Mar https://pypi.org/project/gunicorn/20.1.0/
+gunicorn==21.2.*  # 2021 Mar https://pypi.org/project/gunicorn/20.1.0/
