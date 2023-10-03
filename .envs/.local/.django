@@ -1,0 +1,16 @@
+# General
+# ------------------------------------------------------------------------------
+DJANGO_SETTINGS_MODULE=config.settings.domains.local
+DEBUG=True
+DJANGO_SECRET_KEY=!!SECRETKEYHERE!!
+
+# .domain.com allows all the subdomains such as s1.domain.com
+DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost,allauthgithubdemo.localhost
+
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Password
+# ------------------------------------------------------------------------------
+SECRET_TEST_USER_PASSWORD=!!321FAKE_PASSWORD123!!
