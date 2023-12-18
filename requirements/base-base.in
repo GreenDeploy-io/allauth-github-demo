@@ -20,7 +20,7 @@ django==4.2.5  # 2023 Sept https://pypi.org/project/Django/4.2.5/
 
 # Database
 # ----------------------------------------------------------------
-psycopg==3.1.10 # 2023 Aug https://pypi.org/project/psycopg/3.1.10/
+psycopg==3.1.15 # 2023 Aug https://pypi.org/project/psycopg/3.1.10/
 dj-database-url==2.1.0 # 2023 Aug https://pypi.org/project/dj-database-url/2.1.0/
 
 # Settings
