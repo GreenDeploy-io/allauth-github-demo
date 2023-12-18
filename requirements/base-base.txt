@@ -5,7 +5,7 @@
 #    pip-compile base-base.in
 #
 argon2-cffi==23.1.0
-    # via -r base-base.in
+    # via -r requirements/base-base.in
 argon2-cffi-bindings==21.2.0
     # via argon2-cffi
 asgiref==3.7.2
@@ -25,34 +25,36 @@ cryptography==41.0.2
 defusedxml==0.7.1
     # via python3-openid
 dj-database-url==2.1.0
-    # via -r base-base.in
+    # via -r requirements/base-base.in
 django==4.2.5
     # via
-    #   -r base-base.in
+    #   -r requirements/base-base.in
     #   dj-database-url
     #   django-allauth
-django-allauth==0.56.1
-    # via -r base-base.in
+django-allauth==0.59.0
+    # via -r requirements/base-base.in
 django-environ==0.11.2
-    # via -r base-base.in
+    # via -r requirements/base-base.in
 idna==3.4
     # via requests
 oauthlib==3.2.2
     # via requests-oauthlib
 psycopg==3.1.10
-    # via -r base-base.in
+    # via -r requirements/base-base.in
 pycparser==2.21
     # via cffi
 pyjwt[crypto]==2.7.0
-    # via django-allauth
+    # via
+    #   django-allauth
+    #   pyjwt
 python-slugify==8.0.1
-    # via -r base-base.in
+    # via -r requirements/base-base.in
 python3-openid==3.2.0
     # via django-allauth
 pytz==2023.3
-    # via -r base-base.in
+    # via -r requirements/base-base.in
 redis==5.0.0
-    # via -r base-base.in
+    # via -r requirements/base-base.in
 requests==2.31.0
     # via
     #   django-allauth
